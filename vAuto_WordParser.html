@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Mr. Parser's Super Duper Sentence Encoder!</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/wordParse.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/wordParse.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+
+        <form class="form-horizontal" >
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>Mr. Parser's Super Duper Sentence Encoder!</legend>
+
+                <!-- Appended Input-->
+                <div class="control-group">
+                    <label class="control-label" for="sentenceInput">Please enter at least 3 consecutive alphanumeric characters</label>
+
+                    <div class="controls">
+
+                        <div class="input leftFloat">
+                            <textarea id="sentenceInput" name="sentenceInput" placeholder="make it a good one!"></textarea>
+                        </div>
+
+                        <button id="buttonSubmit" name="submit" class="btn btn-primary"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Get It!</button>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label id="sentenceOutputLabel">The new and improved version of your sentence is...</label>
+                    <p id="sentenceOutput" class="normalText">...drumroll please...</p>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
